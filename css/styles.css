@@ -1,0 +1,152 @@
+.body{
+font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+
+}
+.first{
+  background-color: #ff4c68;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  color:white;
+  font-size: 3.5rem;
+}
+.container{
+padding: 3% 10%
+
+}
+/* navbar */
+/* first change the tindog text */
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/* the big navbar that above all */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+/* this nav is to change the spaces between contact pricing... text */
+.nav-item
+{
+  padding: 0 18px;
+}
+/* changes the font of the 3 links above */
+.nav-link
+{
+  font-size: 1.2rem
+}
+/* Download button somthing we add to the class to change our design and not bootstrap */
+.down-button
+{
+  margin: 10% 3% 10% 0;
+}
+.title-img
+{
+  width: 60%;
+  transform: rotate(25deg);
+
+}
+#features
+{
+  padding: 7% 15%;
+  background-color: white;
+}
+.feature-box
+{
+  text-align: center;
+}
+p{
+  /* padding: 5%; */
+}
+h3
+{
+  font-family: 'Dela Gothic One', cursive;
+}
+.icon
+{
+  margin-bottom: 1.5rem;
+  color: #ef8172;
+}
+.icon:hover
+{
+  color: #ff4c68;
+}
+#testimonials
+{
+  background-color:  #ff4c68;
+  text-align: center;
+  color: white;
+}
+h2{
+  color: white;
+  font-size:3.2rem;
+  line-height: 1.5;
+}
+.dog-cls{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ff4c68;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.comp-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item
+{
+  padding: 7%;
+}
+.h2-pricing{
+  color: black;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-card
+{
+  padding: 3% 2%;
+}
+@media (max-width: 1000px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    transform: rotate(0);
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 5%;
+}
+.down2-button{
+  margin: 2%;
+}
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 5%;
+}
+.logo{
+  margin: 15px;
+}
